@@ -32,7 +32,7 @@ pipeline {
     stage('Deployment') {
       steps {
          script {
-          sh 'kubectl apply -f k3s-config.yaml'
+          sh 'kubectl apply -f k3s_config.yaml'
         }
       }
     }
