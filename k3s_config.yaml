@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: login-app
-        image: honeyy02/login-python:latest  # Replace with your Docker image
+        image: honeyy02/login-python  # Replace with your Docker image
         ports:
         - containerPort: 5000
         env:
